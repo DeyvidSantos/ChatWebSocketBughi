@@ -1,0 +1,35 @@
+{
+  "name": "chatwebsocketbughi",
+  "version": "0.0.1",
+  "description": "Chat made with websocket",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "lint": "eslint ./*.js",
+    "fix": "eslint ./*.js --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeyvidSantos/ChatWebSocketBughi.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DeyvidSantos/ChatWebSocketBughi/issues"
+  },
+  "homepage": "https://github.com/DeyvidSantos/ChatWebSocketBughi#readme",
+  "devDependencies": {
+    "eslint": "^5.6.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "nodemon": "^1.18.4"
+  },
+  "dependencies": {
+    "websocket": "^1.0.28"
+  }
+}
